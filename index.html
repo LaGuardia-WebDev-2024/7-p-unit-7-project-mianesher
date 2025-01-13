@@ -1,8 +1,8 @@
 <!-- Unit 7 Project
 Requirements
-[  ] three variables
+[ yes] three variables
 [  ] animation that moves position
-[  ] animation that changes size
+[ yes ] animation that changes size
 [  ] three new HTML elements/CSS Declarations
 
 Select ONE Additional 
@@ -22,12 +22,19 @@ Select ONE Additional
     <title>Unit 7 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
+    <style>
+      .color2 {
+        color: #28caf7
+      }
+    </style>
   </head>
 
   <body>
-    <h1>
-      New Year, New Me
+    <h1 id="head1">
+      New Year
+  
+    <h1 id="head2">
+      New Me
     </h1>
     <div class="main">
       <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
@@ -36,7 +43,11 @@ Select ONE Additional
           2025 Goals
         </h2>
         <ol>
-          <li>Spend More Time Coding </li>
+          <li class="color2">Spend More Time Coding </li>
+          <li class="color2">Put in more time studying</li>
+          <li class="color2">Workout more</li>
+          <li class="color2">Write more songs</li>
+          <li class="color2">Get better at guitar solos</li>
         </ol>
       </div>
     </div>
